@@ -1,0 +1,13 @@
+items: [
+	{
+		name: 'Remote web development Teaching',
+		url: '/',
+		title: 'Teaching web development on a global scale'
+	},
+	{
+		name: 'Private one to one teaching',
+		url: '/about',
+		title: 'One to one teaching to up your game'
+	}
+
+]

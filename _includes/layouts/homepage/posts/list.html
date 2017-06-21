@@ -1,0 +1,8 @@
+<h2>Blog Posts</h2>
+
+{% if site.posts.length < 1 %}
+	<strong>No posts to show</strong>
+{% else %}
+	<p>Number of posts {{ site.posts.length }} </p>
+	{% include menus/posts/latest.html %}
+{% endif %}

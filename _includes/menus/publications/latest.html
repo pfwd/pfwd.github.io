@@ -1,0 +1,8 @@
+<nav>
+    <h2>Latest publications</h2>
+    <ol>
+        {% for page in site.data.menus.publications.latest.pages %}
+        <li><a href="{{ page.url }}" title="{{ page.title }}" target="_blank">{{ page.name }}</a></li>
+        {% endfor %}
+    </ol>
+</nav>

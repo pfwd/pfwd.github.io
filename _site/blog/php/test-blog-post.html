@@ -1,0 +1,122 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>CSS classes in Symfony2 twig labels</title>
+	</head>
+	<body>
+		<nav>
+	<ol>
+	
+		<li><a href="/" title="UK Based Freelance Web Developer">Home</a></li>
+	
+		<li><a href="/about" title="About Peter Fisher">About</a></li>
+	
+		<li><a href="/publications" title="Books and Youtube">Publications</a></li>
+	
+		<li><a href="/how-to-code-well" title="Web development videos from the How To Code Well YouTube channel">How To Code Well</a></li>
+	
+		<li><a href="/blog" title="Latest blogs from Peter Fisher">Blog</a></li>
+	
+		<li><a href="/teaching" title="Web Development Tutoring">Tutoring</a></li>
+	
+		<li><a href="/contact" title="Contact Me">Contact</a></li>
+	
+		<li><a href="/hire-me" title="Hire me to build your website">Hire Me</a></li>
+	
+	</ol>
+</nav>
+
+		
+			<p>UK Based freelance web developer</p>
+<hr />
+		
+	</body>
+</html>
+<div id="sidebar-left">
+	<div class="menu">
+		<h4>Recent videos</h4>
+<ul>
+	<li><a href="#">Video 1</a></li>
+	<li><a href="#">Video 2</a></li>
+	<li><a href="#">Video 3</a></li>
+</ul>
+	</div>
+</div>
+<h1 id="css-classes-in-symfony2-twig-labels">CSS classes in Symfony2 twig labels</h1>
+
+<p>When rendering a Symfony2 form in a twig template I often get caught out when applying css classes to a label.</p>
+
+<p>Label attributes are handled differently from a forms attribute and this often leads to confusion.</p>
+
+<h2 id="form-attributes">Form attributes</h2>
+
+<p>Adding css class attributes to a Symfony form field is done like so:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">    <span class="cp">&lt;?php</span> <span class="k">echo</span> <span class="s1">'hello'</span><span class="p">;</span> <span class="cp">?&gt;</span></code></pre></figure>
+
+<!-- <script src="https://gist.github.com/9ef332d380f63fb8c935898f14f73407.js"> </script> -->
+
+<h2 id="label-attributes">Label attributes</h2>
+
+<p>As you can see the parameter attr is supplied with a key of class. This is not the case when adding css class attributes to labels.</p>
+
+<p>Not only is the attr parameter named differently but its also the third parameter of the label control:</p>
+
+<script src="https://gist.github.com/d67965bc2e5da1c411e347787793bfc2.js"> </script>
+
+<p>So the parameter you need is label_attr. The second parameter is the label value. Set this to null if you want to use the label value defined in the form class.</p>
+
+<p>You can find out more about using labels in twig templates by reading the Symfony2 documentation</p>
+
+<div id="sidebar-right">
+	<div class="menu">
+		<h4>Latest posts</h4>
+	
+<ul>
+  
+    <li>
+      <a href="/blog/php/test-blog-post">CSS classes in Symfony2 twig labels</a>
+    </li>
+  
+</ul>
+
+	</div>
+	<div class="menu">
+		<h4>Tags</h4>
+<ul>
+	<li><a href="#">Tag 1</a></li>
+	<li><a href="#">Tag 2</a></li>
+	<li><a href="#">Tag 3</a></li>
+</ul>
+	</div>
+	<div class="menu">
+		<h4>Categories</h4>
+<ul>
+	<li><a href="#">Category 1</a></li>
+	<li><a href="#">Category 2</a></li>
+	<li><a href="#">Category 3</a></li>
+</ul>
+	</div>
+	<div class="menu">
+		<h4>Archive</h4>
+<ul>
+	<li><a href="#">Title 1</a></li>
+	<li><a href="#">Title 2</a></li>
+	<li><a href="#">Title 3</a></li>
+	<li><a href="#">View more</a></li>
+</ul> 
+	</div>
+</div>
+<h2>Blog Posts</h2>
+
+
+<p>Number of posts  </p>
+<ul>
+  
+    <li>
+      <a href="/blog/php/test-blog-post">CSS classes in Symfony2 twig labels</a>
+    </li>
+  
+</ul>
+
+<hr/>

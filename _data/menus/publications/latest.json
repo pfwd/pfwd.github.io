@@ -1,0 +1,13 @@
+pages: [
+	{
+		name: 'How to be a successful remote web developer',
+		url: 'https://toctoctech.wordpress.com/2016/05/31/how-to-be-a-successful-remote-web-developer/',
+		title: 'How to be a successful remote web developer'
+	},
+	{
+		name: 'FREELANCING: How I Got Started - Peter Fisher',
+		url: 'https://youtu.be/xmgmCL8cH2A',
+		title: 'FREELANCING: How I Got Started - Peter Fisher'
+	}
+
+]

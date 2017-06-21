@@ -1,0 +1,42 @@
+pages: [
+	{
+		name: 'Home',
+		url: '/',
+		title: 'UK Based Freelance Web Developer'
+	},
+	{
+		name: 'About',
+		url: '/about',
+		title: 'About Peter Fisher'
+	},
+	{
+		name: 'Publications',
+		url: '/publications',
+		title: 'Books and Youtube'
+	},
+	{
+		name: 'How To Code Well',
+		url: '/how-to-code-well',
+		title: 'Web development videos from the How To Code Well YouTube channel'
+	},
+	{
+		name: 'Blog',
+		url: '/blog',
+		title: 'Latest blogs from Peter Fisher'
+	},
+	{
+		name: 'Tutoring',
+		url: '/teaching',
+		title: 'Web Development Tutoring'
+	},
+	{
+		name: 'Contact',
+		url: '/contact',
+		title: 'Contact Me'
+	},
+	{
+		name: 'Hire Me',
+		url: '/hire-me',
+		title: 'Hire me to build your website'
+	}
+]

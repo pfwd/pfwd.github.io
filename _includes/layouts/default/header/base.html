@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+	</head>
+	<body>
+		{% include menus/primary.html %}
+
+		{% if page.strapline %}
+			{% include layouts/default/header/strapline.html %}
+		{% else %}
+			{% include layouts/default/header/strapline_default.html %}
+		{% endif %}
+	</body>
+</html>

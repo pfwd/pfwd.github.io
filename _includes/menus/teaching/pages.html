@@ -1,0 +1,8 @@
+<nav>
+    <h2>Teaching</h2>
+    <ol>
+        {% for page in site.data.menus.teaching.pages.items %}
+        <li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a></li>
+        {% endfor %}
+    </ol>
+</nav>

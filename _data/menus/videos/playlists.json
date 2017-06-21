@@ -1,0 +1,108 @@
+data: [
+	{
+		name: 'Interviews',
+		id: '',
+		image: '',
+		description: '',
+		url: '/interviews',
+		items: [
+			{
+				name: 'Interviews with me',
+				id: '',
+				url: '/interviews-with-me',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Interviews with others',
+				id: '',
+				url: '/interviewing-others',
+				description: '',
+				image: ''
+			}
+		]
+	},
+	{
+		name: 'Tutorials',
+		id: '',
+		image: '',
+		description: '',
+		url: '/tutorials',
+		image: '',
+		items: [
+			{
+				name: 'PHP Tutorials',
+				id: '',
+				url: '/php',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'MYSQL Console Tutorials',
+				id: '',
+				url: '/mysql-console',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Docker Machine Tutorials',
+				id: '',
+				url: '/docker-machine',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Docker Container Tutorials',
+				id: '',
+				url: '/docker-container',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'HTML Tutorials',
+				id: '',
+				url: '/html',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Jekyll Tutorials',
+				id: '',
+				url: '/jekyll',
+				description: '',
+				image: ''
+			}
+		]
+	},
+	{
+		name: 'Web Development Chats',
+		id: '',
+		image: '',
+		description: '',
+		url: '/web-development-chats',
+		image: '',
+		items: [
+			{
+				name: 'Web development career advice',
+				id: '',
+				url: '/web-development-career-advice',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Web development thoughts',
+				id: '',
+				url: '/web-development-thoughts',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Freelance Web development',
+				id: '',
+				url: '/freelance-web-development',
+				description: '',
+				image: ''
+			}
+		]
+	}
+]
