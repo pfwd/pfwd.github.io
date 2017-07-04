@@ -5,16 +5,6 @@ pages: [
 		title: 'UK Based Freelance Web Developer'
 	},
 	{
-		name: 'About',
-		url: '/about',
-		title: 'About Peter Fisher'
-	},
-	{
-		name: 'Publications',
-		url: '/publications',
-		title: 'Books and Youtube'
-	},
-	{
 		name: 'How To Code Well',
 		url: '/how-to-code-well',
 		title: 'Web development videos from the How To Code Well YouTube channel'
@@ -23,6 +13,16 @@ pages: [
 		name: 'Blog',
 		url: '/blog',
 		title: 'Latest blogs from Peter Fisher'
+	},
+	{
+		name: 'Speaking',
+		url: '/speaking',
+		title: 'About Peter Fisher'
+	},
+	{
+		name: 'Publications',
+		url: '/publications',
+		title: 'About Peter Fisher'
 	},
 	{
 		name: 'Tutoring',

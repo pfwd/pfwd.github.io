@@ -1,5 +1,28 @@
-{% include layouts/default/header/base.html %}
-{% include layouts/publications/sidebars/left/base.html %}
-{{ content }}
-{% include layouts/publications/sidebars/right/base.html %}
-{% include layouts/default/footer/base.html %}
+<!DOCTYPE>
+<html>
+<head>
+    {% include layouts/default/header/base.html %}
+</head>
+<body>
+<div id="container">
+    <header id="container-head">
+        {% include layouts/default/header/header_container.html %}
+    </header>
+
+    <div class="row" id="container-content">
+        <div id="content" class="col _55">
+            {{ content }}
+
+            {% include menus/publications/latest.html %}
+        </div>
+        <aside id="sidebar-right" class="col _25 sidebar">
+            {% include layouts/homepage/sidebars/right/base.html %}
+        </aside>
+    </div>
+
+    <footer id="container-foot">
+        {% include layouts/default/footer/base.html %}
+    </footer>
+</div>
+</body>
+</html>

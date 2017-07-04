@@ -1,0 +1,303 @@
+---
+
+---
+
+$background-color : #DDD;
+$nav-bg: #999999;
+$nav-fg: #000;
+
+body {
+  background-color: $background-color;
+  margin:0;
+  padding:0;
+}
+body, input{
+
+  font-size:16px;
+  line-height:1.3;
+  font-family: sans-serif;
+}
+p{
+  padding:10px;
+  margin:0;
+}
+h1, h2{
+  padding:10px;
+  margin:0;
+}
+h4{
+  padding:5px;
+  margin:0;
+}
+
+// Mobile
+#container{
+  width:100%;
+  background-color: #FFF;
+}
+
+#container-content{
+  background-color: #FFF;
+  margin-top:20px;
+}
+.col{
+  width:100%;
+  float:left;
+}
+
+.row{
+  display:block;
+  margin:0;
+}
+#container-content-how-to-code-well{
+  background-color:#000;
+  color:#FFF;
+  margin:0;
+}
+#container-content-how-to-code-well #videoPromo{
+  background-color:#FFF;
+
+}
+#videoFeatured ul{
+  width:100%;
+}
+#videoPromo{
+  background-color:#000;
+  height:400px;
+  margin-bottom:10px;
+}
+.videoThumb{
+  background-color:red;
+  height:150px;
+  margin: 10px 0 10px 0;
+}
+div#content #videoFeatured ul .col:last-of-type{
+  margin-bottom:20px;
+}
+#playlistVideo ul:first-of-type li{
+margin-top:0;
+}
+div#content section#howToCodeWellPromo{
+  background-color: blue;
+  margin-bottom:20px;
+
+}
+nav.menu ul.postTags{
+  display: inline;
+  float:left;
+  width:100%;
+}
+nav.menu ul.postTags li{
+  float:left;
+  border:none;
+  padding:0;
+
+}
+nav.menu ul.postTags li a{
+  display: inline;
+  padding:10px;
+  padding-right:0px;
+  text-decoration: underline;
+  color:#999999;
+}
+nav.menu ul.postTags li a:hover{
+  color: #888888;
+  background-color: transparent;
+}
+
+nav.menu ul.postTags li:after {
+  content: ",";
+  color: #aaa;
+}
+nav.menu ul.postTags li:first-child a{
+  margin-left:0;
+}
+nav.menu ul.postTags li:last-child:after {
+  content: "";
+}
+
+nav.menu ul.postTags li:last-child:after {
+  content: "";
+}
+
+form .col{
+  margin:0;
+}
+input{
+  padding: 10px;
+  border: 1px solid #888;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.btn, .menuHead{
+  background-color: #999999;
+}
+
+
+@media only screen and (min-width:480px) {
+  body{
+    font-size:18px;
+  }
+  .row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .col{
+    flex-basis:100%;
+    margin:0 20px 0 20px;
+  }
+
+  input{
+    width:auto;
+  }
+
+  .col{
+    flex: 1;
+  }
+  ._12 {
+    flex: 12
+  }
+  ._2{
+    flex: 2;
+  }
+  ._25{
+    flex: 2.5;
+  }
+  ._3{
+    flex: 3;
+  }
+  ._55{
+    flex: 8;
+  }
+  ._100{
+    margin:0;
+  }
+  header#container-head{
+    //margin-bottom: 20px;
+  }
+  header#container-head .col{
+    margin:0;
+    padding:0 20px 0 20px;
+  }
+  div#content .col{
+    margin:0;
+  }
+  div#container{
+    margin-left:auto;
+    margin-right:auto;
+    //min-height: 600px;
+    width:1084px;
+  }
+
+  .flex-grid{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div#content .videoThumb{
+    margin: 10px 10px 20px 10px;
+  }
+  div#content #videoFeatured ul .col:first-child{
+    margin-left:0;
+  }
+  div#content #videoFeatured ul .col:last-of-type{
+    margin-right:0;
+  }
+}
+
+  a{
+    color: $nav-fg;
+    text-decoration: none;
+    display:block;
+    padding:0 10px 0 10px;
+  }
+
+  a:hover{
+    color: #FFF;
+    background-color: #888888;
+  }
+
+article.teaser{
+  margin-bottom:10px;
+}
+article.teaser a:hover{
+  background-color:transparent;
+  color:#000000;
+}
+article.teaser:hover{
+  background-color:#EEE;
+}
+
+
+article.teaser {
+  h2 {
+    margin: 0;
+  }
+  a {
+    padding:0;
+  }
+}
+
+  nav ol, nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+  }
+  header#container-head{
+
+    nav{
+      background-color:$nav-bg;
+    }
+    nav li{
+      float:left;
+    }
+    nav li a{
+      float:left;
+      padding:10px;
+    }
+
+    div#strapline{
+      border-top:1px solid #FFF;
+      border-bottom:1px solid #999;
+      background-color:#EEE;
+    }
+    div#strapline p{
+      padding:10px;
+      margin:0;
+    }
+  }
+
+  footer#container-foot{
+    padding:20px  0 20px 0;
+    background-color:#EEE;
+  }
+
+  div#content{
+    float:left;
+  }
+  aside.sidebar{
+    float:left;
+    margin-left:0;
+  }
+
+  nav.menu ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+  }
+
+  nav.menu li a {
+    border-bottom:1px solid #999;
+    padding:5px;
+  }
+
+.sidebar h4{
+  margin-top: 20px;
+}
+nav.menu h4:first-of-type{
+  margin-top:0;
+}
+

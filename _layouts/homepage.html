@@ -1,6 +1,64 @@
-{% include layouts/default/header/base.html %}
-{% include layouts/homepage/sidebars/left/base.html %}
-{{ content }}
-{% include layouts/homepage/posts/list.html %}
-{% include layouts/homepage/sidebars/right/base.html %}
-{% include layouts/default/footer/base.html %}
+<!DOCTYPE>
+<html>
+    <head>
+        {% include layouts/default/header/base.html %}
+    </head>
+    <body>
+
+    <div id="container">
+        <header id="container-head">
+            {% include layouts/default/header/header_container.html %}
+        </header>
+
+        <div class="row" id="container-content">
+            <div id="content" class="col _55">
+                <div class="row">
+                    <div class="col _55">
+                        <div id="videoPromo">
+
+                        </div>
+                    </div>
+                </div>
+                <nav class="row" id="videoFeatured">
+                    <ul class="flex-grid">
+                        <li class="col videoThumb _25">
+
+                        </li>
+                        <li class="col videoThumb _25">
+
+                        </li>
+                        <li class="col videoThumb _25">
+
+                        </li>
+                    </ul>
+                </nav>
+                <div class="row">
+                    <section id="howToCodeWellPromo" class="col _55">
+                        <h2>How To Code Well</h2>
+                        <p>Subscribe to How To Code Well.</p>
+                        <p>Other videos</p>
+                    </section>
+                </div>
+
+
+                    <!--{{ content }}-->
+
+                <div class="row">
+                    <div class="col">
+                        {% include layouts/homepage/posts/list.html %}
+                    </div>
+                </div>
+
+            </div>
+            <aside id="sidebar-right" class="col _25 sidebar">
+                {% include layouts/homepage/sidebars/right/base.html %}
+            </aside>
+        </div>
+
+        <footer id="container-foot">
+            {% include layouts/default/footer/base.html %}
+        </footer>
+    </div>
+
+    </body>
+</html>

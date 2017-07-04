@@ -1,6 +1,17 @@
-<h4>Playlists</h4>
-<ul>
-	<li><a href="#">Interviews/a></li>
-	<li><a href="#">Tutorials</a></li>
-	<li><a href="#">Web Chats</a></li>
-</ul> 
+{% if site.data.menus.videos.playlists.data < 1 %}
+<strong>No playlists to show</strong>
+{% else %}
+<nav class="menu">
+
+	{% for playlist in site.data.menus.videos.playlists.data  %}
+	<h4>{{ playlist.name }}</h4>
+		<nav class="menu">
+			<ul>
+			{% for item in playlist.items  %}
+				<li><a href="{{ item.url }}" title="{{ item.name }}">{{ item.name }}</a></li>
+			{% endfor %}
+			</ul>
+		</nav>
+	{% endfor %}
+</nav>
+{% endif %}

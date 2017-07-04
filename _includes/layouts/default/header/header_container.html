@@ -1,0 +1,15 @@
+ <div class="row">
+    <nav class="col">
+{% include menus/primary.html %}
+    </nav>
+</div>
+
+<div class="row">
+    <div class="col" id="strapline">
+{% if page.strapline %}
+{% include layouts/default/header/strapline.html %}
+{% else %}
+{% include layouts/default/header/strapline_default.html %}
+{% endif %}
+    </div>
+</div>

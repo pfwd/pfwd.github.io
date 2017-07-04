@@ -1,7 +1,5 @@
-<nav>
-	<ol>
-	{% for page in site.data.menus.primary.pages %}
-		<li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a></li>
-	{% endfor %}
-	</ol>
-</nav>
+<ol>
+{% for page in site.data.menus.primary.pages %}
+	<li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a></li>
+{% endfor %}
+</ol>

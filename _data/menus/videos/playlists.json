@@ -1,28 +1,5 @@
 data: [
 	{
-		name: 'Interviews',
-		id: '',
-		image: '',
-		description: '',
-		url: '/interviews',
-		items: [
-			{
-				name: 'Interviews with me',
-				id: '',
-				url: '/interviews-with-me',
-				description: '',
-				image: ''
-			},
-			{
-				name: 'Interviews with others',
-				id: '',
-				url: '/interviewing-others',
-				description: '',
-				image: ''
-			}
-		]
-	},
-	{
 		name: 'Tutorials',
 		id: '',
 		image: '',
@@ -31,42 +8,49 @@ data: [
 		image: '',
 		items: [
 			{
-				name: 'PHP Tutorials',
+				name: 'PHP tutorials',
 				id: '',
 				url: '/php',
 				description: '',
 				image: ''
 			},
 			{
-				name: 'MYSQL Console Tutorials',
+				name: 'MYSQL console tutorials',
 				id: '',
 				url: '/mysql-console',
 				description: '',
 				image: ''
 			},
 			{
-				name: 'Docker Machine Tutorials',
+				name: 'Docker machine tutorials',
 				id: '',
 				url: '/docker-machine',
 				description: '',
 				image: ''
 			},
 			{
-				name: 'Docker Container Tutorials',
+				name: 'Docker container tutorials',
 				id: '',
 				url: '/docker-container',
 				description: '',
 				image: ''
 			},
 			{
-				name: 'HTML Tutorials',
+				name: 'HTML tutorials',
 				id: '',
 				url: '/html',
 				description: '',
 				image: ''
 			},
 			{
-				name: 'Jekyll Tutorials',
+				name: 'HTML form tutorials',
+				id: '',
+				url: '/jekyll',
+				description: '',
+				image: ''
+			},
+			{
+				name: 'Jekyll tutorials',
 				id: '',
 				url: '/jekyll',
 				description: '',
@@ -97,12 +81,35 @@ data: [
 				image: ''
 			},
 			{
-				name: 'Freelance Web development',
+				name: 'Freelance web development',
 				id: '',
 				url: '/freelance-web-development',
 				description: '',
 				image: ''
 			}
 		]
-	}
+	},
+	{
+	name: 'Interviews',
+	id: '',
+	image: '',
+	description: '',
+	url: '/interviews',
+	items: [
+		{
+			name: 'Interviews with me',
+			id: '',
+			url: '/interviews-with-me',
+			description: '',
+			image: ''
+		},
+		{
+			name: 'Interviews with others',
+			id: '',
+			url: '/interviewing-others',
+			description: '',
+			image: ''
+		}
+		]
+	},
 ]

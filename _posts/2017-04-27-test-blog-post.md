@@ -1,13 +1,9 @@
 ---
-title: CSS classes in Symfony2 twig labels
-date:   2015-11-17 16:16:01 -0600
-categories: symfony
+title: Test Post 1
+date:   2015-04-17 16:16:01 -0600
+categories: php
 permalink: /blog/:categories/:title
 layout: post
-tags: 
-    - php
-    - symfony
-    - twig
 ---
 
 When rendering a Symfony2 form in a twig template I often get caught out when applying css classes to a label.
