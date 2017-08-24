@@ -1,50 +1,52 @@
 <!DOCTYPE>
 <html>
-	<head>
-		<title>CSS classes in Symfony2 twig labels</title>
-	</head>
-	<body>
-		<nav>
-	<ol>
-	
-		<li><a href="/" title="UK Based Freelance Web Developer">Home</a></li>
-	
-		<li><a href="/about" title="About Peter Fisher">About</a></li>
-	
-		<li><a href="/publications" title="Books and Youtube">Publications</a></li>
-	
-		<li><a href="/how-to-code-well" title="Web development videos from the How To Code Well YouTube channel">How To Code Well</a></li>
-	
-		<li><a href="/blog" title="Latest blogs from Peter Fisher">Blog</a></li>
-	
-		<li><a href="/teaching" title="Web Development Tutoring">Tutoring</a></li>
-	
-		<li><a href="/contact" title="Contact Me">Contact</a></li>
-	
-		<li><a href="/hire-me" title="Hire me to build your website">Hire Me</a></li>
-	
-	</ol>
-</nav>
+<head>
+    <title>Test Post 1</title>
+<link rel="stylesheet" href="/css/main.css" >
+</head>
+<body>
+<div id="container">
+    <header id="container-head">
+         <div class="row">
+    <nav class="col">
+<ol>
 
-		
-			<p>UK Based freelance web developer</p>
-<hr />
-		
-	</body>
-</html>
-<div id="sidebar-left">
-	<div class="menu">
-		<h4>Recent videos</h4>
-<ul>
-	<li><a href="#">Video 1</a></li>
-	<li><a href="#">Video 2</a></li>
-	<li><a href="#">Video 3</a></li>
-</ul>
-	</div>
+	<li><a href="/" title="UK Based Freelance Web Developer">Home</a></li>
+
+	<li><a href="/how-to-code-well" title="Web development videos from the How To Code Well YouTube channel">How To Code Well</a></li>
+
+	<li><a href="/blog" title="Latest blogs from Peter Fisher">Blog</a></li>
+
+	<li><a href="/speaking" title="About Peter Fisher">Speaking</a></li>
+
+	<li><a href="/publications" title="About Peter Fisher">Publications</a></li>
+
+	<li><a href="/teaching" title="Web Development Tutoring">Tutoring</a></li>
+
+	<li><a href="/contact" title="Contact Me">Contact</a></li>
+
+	<li><a href="/hire-me" title="Hire me to build your website">Hire Me</a></li>
+
+</ol>
+
+    </nav>
 </div>
-<h1 id="css-classes-in-symfony2-twig-labels">CSS classes in Symfony2 twig labels</h1>
 
-<p>When rendering a Symfony2 form in a twig template I often get caught out when applying css classes to a label.</p>
+<div class="row">
+    <div class="col" id="strapline">
+
+<p>UK Based freelance web developer</p>
+
+
+    </div>
+</div>
+
+    </header>
+
+    <div class="row" id="container-content">
+        <div id="content" class="col _55">
+
+            <p>When rendering a Symfony2 form in a twig template I often get caught out when applying css classes to a label.</p>
 
 <p>Label attributes are handled differently from a forms attribute and this often leads to confusion.</p>
 
@@ -68,55 +70,168 @@
 
 <p>You can find out more about using labels in twig templates by reading the Symfony2 documentation</p>
 
-<div id="sidebar-right">
-	<div class="menu">
-		<h4>Latest posts</h4>
-	
-<ul>
-  
-    <li>
-      <a href="/blog/php/test-blog-post">CSS classes in Symfony2 twig labels</a>
-    </li>
-  
-</ul>
+        </div>
+        <aside id="sidebar-right" class="col _25 sidebar">
+            
+<nav class="menu">
 
+	
+	<h4>Tutorials</h4>
+		<nav class="menu">
+			<ul>
+			
+				<li><a href="/php" title="PHP tutorials">PHP tutorials</a></li>
+			
+				<li><a href="/mysql-console" title="MYSQL console tutorials">MYSQL console tutorials</a></li>
+			
+				<li><a href="/docker-machine" title="Docker machine tutorials">Docker machine tutorials</a></li>
+			
+				<li><a href="/docker-container" title="Docker container tutorials">Docker container tutorials</a></li>
+			
+				<li><a href="/html" title="HTML tutorials">HTML tutorials</a></li>
+			
+				<li><a href="/jekyll" title="HTML form tutorials">HTML form tutorials</a></li>
+			
+				<li><a href="/jekyll" title="Jekyll tutorials">Jekyll tutorials</a></li>
+			
+			</ul>
+		</nav>
+	
+	<h4>Web Development Chats</h4>
+		<nav class="menu">
+			<ul>
+			
+				<li><a href="/web-development-career-advice" title="Web development career advice">Web development career advice</a></li>
+			
+				<li><a href="/web-development-thoughts" title="Web development thoughts">Web development thoughts</a></li>
+			
+				<li><a href="/freelance-web-development" title="Freelance web development">Freelance web development</a></li>
+			
+			</ul>
+		</nav>
+	
+	<h4>Interviews</h4>
+		<nav class="menu">
+			<ul>
+			
+				<li><a href="/interviews-with-me" title="Interviews with me">Interviews with me</a></li>
+			
+				<li><a href="/interviewing-others" title="Interviews with others">Interviews with others</a></li>
+			
+			</ul>
+		</nav>
+	
+</nav>
+
+<h4>Subscribe for email updates</h4>
+<p>Get monthly web development video tutorials</p>
+<form name="subscribe" class="flex-grid">
+	<div class="row">
+		<div class="col">
+			<input type="text" name="subscribeEmail" placeholder="Enter email address" id="subscribeEmail" />
+		</div>
+		<div class="col">
+			<input type="button" name="subscribeBtn" value="Subscribe" id="subscribeBtn" class="btn" />
+		</div>
 	</div>
+</form>
+            <div id="sidebar-left">
 	<div class="menu">
-		<h4>Tags</h4>
-<ul>
-	<li><a href="#">Tag 1</a></li>
-	<li><a href="#">Tag 2</a></li>
-	<li><a href="#">Tag 3</a></li>
-</ul>
-	</div>
-	<div class="menu">
-		<h4>Categories</h4>
-<ul>
-	<li><a href="#">Category 1</a></li>
-	<li><a href="#">Category 2</a></li>
-	<li><a href="#">Category 3</a></li>
-</ul>
-	</div>
-	<div class="menu">
-		<h4>Archive</h4>
-<ul>
-	<li><a href="#">Title 1</a></li>
-	<li><a href="#">Title 2</a></li>
-	<li><a href="#">Title 3</a></li>
-	<li><a href="#">View more</a></li>
-</ul> 
+		<h4>Recent videos</h4>
+<nav class="menu">
+	<ul>
+		<li><a href="#">Video 1</a></li>
+		<li><a href="#">Video 2</a></li>
+		<li><a href="#">Video 3</a></li>
+	</ul>
+</nav>
 	</div>
 </div>
-<h2>Blog Posts</h2>
+        </aside>
+    </div>
 
-
-<p>Number of posts  </p>
-<ul>
-  
-    <li>
-      <a href="/blog/php/test-blog-post">CSS classes in Symfony2 twig labels</a>
-    </li>
-  
-</ul>
-
-<hr/>
+    <footer id="container-foot">
+        <div class="row">
+    <nav class="col _3 menu">
+        <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Speaking</a></li>
+            <li><a href="#">HowToCodeWell</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Speaking</a></li>
+            <li><a href="#">Tutoring</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Hire me</a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <h4>Upcoming talks</h4>
+        <ul>
+            <li><a href="#">PHP Sourth West: Cows & Queues</a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <h4>Who I've Worked for</h4>
+        <ul>
+            <li><a href="#">Cancer Intalgance</a></li>
+            <li><a href="#">FS4S</a></li>
+            <li><a href="#">Flyup Downhill</a></li>
+            <li><a href="#">Kloc</a></li>
+            <li><a href="#">Redder</a></li>
+            <li><a href="#">See all</a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <h4>Tweets</h4>
+        <ul>
+            <li><a href="#">Video 1</a></li>
+            <li><a href="#">Video 2</a></li>
+            <li><a href="#">Video 3</a></li>
+            <li><a href="#">Video 4</a></li>
+            <li><a href="#">Video 5</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="row">
+    <nav class="col _3 menu">
+        <h4>Latest posts</h4>
+        <ul>
+            <li><a href="#">Post 1</a></li>
+            <li><a href="#">Post 2</a></li>
+            <li><a href="#">Post </a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <h4>Latest videos</h4>
+        <ul>
+            <li><a href="#">Video 1</a></li>
+            <li><a href="#">Video 2</a></li>
+            <li><a href="#">Video 3</a></li>
+            <li><a href="#">Video 4</a></li>
+            <li><a href="#">Video 5</a></li>
+        </ul>
+    </nav>
+    <nav class="col _3 menu">
+        <h4>Tweets</h4>
+        <ul>
+            <li><a href="#">Video 1</a></li>
+            <li><a href="#">Video 2</a></li>
+            <li><a href="#">Video 3</a></li>
+            <li><a href="#">Video 4</a></li>
+            <li><a href="#">Video 5</a></li>
+        </ul>
+    </nav>
+</div>
+    </footer>
+</div>
+</body>
+</html>
